@@ -1,0 +1,40 @@
+---
+
+### 2. `index.html`
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejamento Financeiro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Simulação de Reserva Financeira</h2>
+        <p class="description">Acompanhamento da evolução salarial, rendimentos e reserva acumulada ao longo dos anos.</p>
+        
+        <div class="table-responsive">
+            <table id="financeTable">
+                <thead>
+                    <tr>
+                        <th>Ano</th>
+                        <th>Idade</th>
+                        <th>Salário</th>
+                        <th>Reserva anual</th>
+                        <th>Valor inicial</th>
+                        <th>Rendimento</th>
+                        <th>Valor final</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Os dados serão preenchidos via JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
