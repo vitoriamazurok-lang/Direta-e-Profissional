@@ -1,0 +1,96 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #1a365d;
+    margin-bottom: 5px;
+}
+
+.description {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Estilização da Planilha / Tabela */
+.table-responsive {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+/* Cabeçalho */
+th {
+    background-color: #2b6cb0;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-align: right;
+    border: 1px solid #2b6cb0;
+    font-size: 15px;
+}
+
+th:nth-child(1), th:nth-child(2) {
+    text-align: center;
+}
+
+/* Células de Dados */
+td {
+    padding: 10px 15px;
+    border: 1px solid #e2e8f0;
+    text-align: right;
+}
+
+td:nth-child(1), td:nth-child(2) {
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Efeito Zebra nas Linhas */
+tbody tr:nth-child(even) {
+    background-color: #f7fafc;
+}
+
+/* Destaque ao passar o mouse */
+tbody tr:hover {
+    background-color: #edf2f7;
+}
+
+/* Destaques Especiais (Negrito e Cores) */
+.highlight-salary {
+    color: #2d3748;
+}
+
+.highlight-final {
+    font-weight: bold;
+    color: #276749; /* Verde para destacar o saldo final acumulado */
+    background-color: #f0fff4;
+}
+
+/* Estilo para Totais ou Destaques no Final */
+tr.total-row {
+    font-weight: bold;
+    background-color: #ebf8ff;
+    border-top: 2px solid #2b6cb0;
+    border-bottom: 3px double #2b6cb0;
+}
